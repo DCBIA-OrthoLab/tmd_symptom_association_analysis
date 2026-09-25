@@ -1,0 +1,104 @@
+========================================================================
+COHORT
+========================================================================
+  records_available        1401
+  excluded_out_of_range    78
+  cohort                   1323
+  age_documented           1112
+  age_missing              211
+  age_mean                 30.7
+  age_sd                   13.8
+  age_median               28.0
+  age_q1                   18.0
+  age_q3                   42.0
+  sex_resolved             1322
+  pct_female               76.6
+
+  features entering the matrix: 27
+  estimable pairs: 332 of 351
+  median V 0.114 | pairs < 0.20: 228 | pairs >= 0.40: 26
+  pair n: min 30, median 304, max 957
+
+========================================================================
+TABLE 1  neck pain associations
+========================================================================
+  0.804  n= 283  muscle_symptoms_present
+  0.614  n= 316  tmj_pain_rating
+  0.610  n= 286  disability_rating
+  0.559  n= 307  headache_intensity
+  0.555  n= 272  appliance_history
+  0.543  n= 288  diet_score
+  0.522  n=  70  current_appliance
+  0.507  n= 211  average_daily_pain_intensity
+  0.472  n= 289  jaw_function_score
+  0.430  n= 131  headache_frequency
+
+========================================================================
+MATCHED COMPARISON  (dichotomised, shared patients)
+========================================================================
+  n = 257
+  V neck_pain_present|muscle_symptoms_present            0.817
+  V neck_pain_present|tmj_pain_rating                    0.579
+  V muscle_symptoms_present|tmj_pain_rating              0.567
+  diff_ab_minus_ac: 0.237  95% CI [0.127, 0.349]  resamples <= 0: 0/4000
+  diff_ab_minus_bc: 0.249  95% CI [0.139, 0.360]  resamples <= 0: 0/4000
+
+========================================================================
+DEFINITIONAL OVERLAP CHECK
+========================================================================
+  all patients:                V=0.804  n=283
+  excluding neck-as-muscle-site (323 patients): V=0.741  n=166
+
+========================================================================
+HIERARCHICAL CLUSTERING
+========================================================================
+  features: 24   cophenetic correlation: 0.799
+  k=2: otologic memberships {'tinnitus_present': 2, 'vertigo_present': 2, 'earache_present': 2, 'hearing_loss_present': 2}  -> separate cluster: False
+  k=3: otologic memberships {'tinnitus_present': 3, 'vertigo_present': 3, 'earache_present': 3, 'hearing_loss_present': 3}  -> separate cluster: False
+  k=4: otologic memberships {'tinnitus_present': 4, 'vertigo_present': 4, 'earache_present': 4, 'hearing_loss_present': 4}  -> separate cluster: False
+  k=5: otologic memberships {'tinnitus_present': 5, 'vertigo_present': 5, 'earache_present': 5, 'hearing_loss_present': 4}  -> separate cluster: False
+  k=6: otologic memberships {'tinnitus_present': 5, 'vertigo_present': 5, 'earache_present': 5, 'hearing_loss_present': 4}  -> separate cluster: False
+
+========================================================================
+OTOLOGIC COUPLING
+========================================================================
+  mean within otologic  0.330  (6 pairs)
+  mean otologic to rest 0.163  (92 pairs)
+
+========================================================================
+SEX INTERACTION IN COUPLING
+========================================================================
+  13 pairs testable; Bonferroni threshold p < 0.0038
+  earache_present x vertigo_present                        OR_F=  3.84 (n=727)  OR_M= 15.19 (n=209)  p=0.0008
+  earache_present x tinnitus_present                       OR_F=  4.54 (n=726)  OR_M= 16.79 (n=205)  p=0.0031
+  tinnitus_present x vertigo_present                       OR_F=  5.78 (n=730)  OR_M= 19.38 (n=205)  p=0.0053
+  earache_present x neck_pain_present                      OR_F=  8.48 (n=219)  OR_M=  2.31 (n= 69)  p=0.0601
+  neck_pain_present x tinnitus_present                     OR_F=  3.10 (n=214)  OR_M=  1.39 (n= 69)  p=0.2171
+  muscle_symptoms_present x vertigo_present                OR_F=  3.07 (n=636)  OR_M=  5.92 (n=153)  p=0.2513
+
+  wrote supplementary tables S2 (age) and S3 (sex)
+
+========================================================================
+AGE-STRATIFIED ASSOCIATIONS
+========================================================================
+  pairs estimable in all three groups (n>=40): 213 of 351
+  Pearson r  12-19 vs 20-39: 0.616
+  Pearson r  20-39 vs 40-59: 0.641
+  Pearson r  12-19 vs 40-59: 0.616
+
+  SPLIT-HALF CEILING (within single age group):
+    12-19: split-half r = 0.455 (20 splits)
+    20-39: split-half r = 0.476 (20 splits)
+    40-59: split-half r = 0.489 (20 splits)
+    mean ceiling: 0.474
+
+========================================================================
+WITHIN-DOMAIN VS CROSS-DOMAIN
+========================================================================
+  musculoskeletal      within  0.338 (3 pairs)  cross  0.212 (69 pairs)
+  pain                 within  0.144 (10 pairs)  cross  0.161 (107 pairs)
+  functional           within  0.123 (15 pairs)  cross  0.122 (122 pairs)
+  otologic             within  0.330 (6 pairs)  cross  0.163 (92 pairs)
+  sleep_airway         within  0.245 (3 pairs)  cross  0.079 (70 pairs)
+  systemic             within    n/a (0 pairs)  cross  0.166 (17 pairs)
+  treatment            within  0.347 (4 pairs)  cross  0.113 (82 pairs)

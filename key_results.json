@@ -1,0 +1,67 @@
+{
+  "cohort": {
+    "records_available": 1401,
+    "excluded_out_of_range": 78,
+    "cohort": 1323,
+    "age_documented": 1112,
+    "age_missing": 211,
+    "age_mean": 30.68794964028777,
+    "age_sd": 13.796995411353153,
+    "age_median": 28.0,
+    "age_q1": 18.0,
+    "age_q3": 42.0,
+    "sex_resolved": 1322,
+    "pct_female": 76.55068078668684
+  },
+  "matched_comparison": {
+    "n": 257,
+    "V": {
+      "neck_pain_present|muscle_symptoms_present": 0.8166601445018559,
+      "neck_pain_present|tmj_pain_rating": 0.5790616051265275,
+      "muscle_symptoms_present|tmj_pain_rating": 0.5670040911826144
+    },
+    "diff_ab_minus_ac": {
+      "point": 0.23685039348802564,
+      "ci_low": 0.12659224553078346,
+      "ci_high": 0.3488888718951377,
+      "n_at_or_below_zero": 0,
+      "n_boot": 4000
+    },
+    "diff_ab_minus_bc": {
+      "point": 0.24932175129636835,
+      "ci_low": 0.13863659506549986,
+      "ci_high": 0.3603870909283757,
+      "n_at_or_below_zero": 0,
+      "n_boot": 4000
+    }
+  },
+  "clustering": {
+    "features": [
+      "airway_obstruction_present",
+      "appliance_history",
+      "average_daily_pain_intensity",
+      "current_appliance",
+      "diet_score",
+      "disability_rating",
+      "earache_present",
+      "headache_frequency",
+      "headache_intensity",
+      "hearing_loss_present",
+      "jaw_clicking",
+      "jaw_crepitus",
+      "jaw_function_score",
+      "joint_arthritis_location",
+      "muscle_pain_score",
+      "muscle_symptoms_present",
+      "neck_pain_present",
+      "pain_aggravating_factors",
+      "physical_therapy_status",
+      "sleep_apnea_diagnosed",
+      "sleep_disorder_type",
+      "tinnitus_present",
+      "tmj_pain_rating",
+      "vertigo_present"
+    ],
+    "cophenetic": 0.7989999041368402
+  }
+}

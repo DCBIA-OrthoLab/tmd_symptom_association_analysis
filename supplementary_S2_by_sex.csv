@@ -1,0 +1,19 @@
+feature,measure,Female,Male,p
+neck_pain_present,% present (n documented),55.6% (270),25.3% (95),3.794696925125301e-07
+muscle_symptoms_present,% present (n documented),90.4% (730),67.6% (173),1.2904837859619761e-12
+tinnitus_present,% present (n documented),46.9% (738),40.1% (207),0.09702724998546727
+vertigo_present,% present (n documented),48.1% (742),31.1% (212),1.062664030006081e-05
+earache_present,% present (n documented),47.7% (753),26.7% (210),4.325894326440885e-08
+hearing_loss_present,% present (n documented),22.3% (466),20.3% (118),0.7094217531773626
+sleep_apnea_diagnosed,% present (n documented),84.4% (262),94.2% (103),0.014087094700876976
+airway_obstruction_present,% present (n documented),92.5% (652),97.3% (223),0.00983813794704376
+tmj_pain_rating,median [IQR] (n),5 [2-7] (773),2 [0-5] (219),3.938012828584816e-12
+headache_intensity,median [IQR] (n),5 [2-7] (749),0 [0-5] (213),2.740521225537043e-14
+disability_rating,median [IQR] (n),4 [1-6] (740),2 [0-5] (180),5.547040356398554e-06
+diet_score,median [IQR] (n),4 [2-6] (740),2 [0-4] (183),1.6765853959645457e-14
+jaw_function_score,median [IQR] (n),5 [3-7] (744),3 [1-6] (184),5.46920908208168e-06
+average_daily_pain_intensity,median [IQR] (n),5 [4-7] (640),4 [2-6] (130),0.00028726024678799055
+jaw_clicking,% documented (n in group),40.9% (1012),37.1% (310),0.2339757819144718
+jaw_crepitus,% documented (n in group),19.4% (1012),7.7% (310),5.131943924981284e-07
+muscle_pain_score,% documented (n in group),60.2% (1012),35.2% (310),1.374730563833256e-14
+headache_frequency,% documented (n in group),40.8% (1012),21.3% (310),1.6212261596717542e-10

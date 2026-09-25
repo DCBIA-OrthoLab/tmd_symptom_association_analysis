@@ -1,0 +1,29 @@
+pair,note,or_female,n_female,or_male,n_male,interaction_p
+airway_obstruction_present x earache_present,cells too small,,,,,
+airway_obstruction_present x hearing_loss_present,cells too small,,,,,
+airway_obstruction_present x muscle_symptoms_present,cells too small,,,,,
+airway_obstruction_present x neck_pain_present,cells too small,,,,,
+airway_obstruction_present x sleep_apnea_diagnosed,cells too small,,,,,
+airway_obstruction_present x tinnitus_present,cells too small,,,,,
+airway_obstruction_present x vertigo_present,cells too small,,,,,
+earache_present x hearing_loss_present,,3.9687269145530655,460.0,7.607407407407406,116.0,0.2542592356633362
+earache_present x muscle_symptoms_present,,8.346415489272632,649.0,6.406779661016949,151.0,0.6876172586300433
+earache_present x neck_pain_present,,8.482142857142858,219.0,2.3140495867768593,69.0,0.06009768115821146
+earache_present x sleep_apnea_diagnosed,cells too small,,,,,
+earache_present x tinnitus_present,,4.5399610136452235,726.0,16.793650793650798,205.0,0.0031004902824098846
+earache_present x vertigo_present,,3.8398103632478633,727.0,15.18840579710145,209.0,0.0007801942301055576
+hearing_loss_present x muscle_symptoms_present,,2.241007194244604,407.0,1.4,93.0,0.5378990965408759
+hearing_loss_present x neck_pain_present,cells too small,,,,,
+hearing_loss_present x sleep_apnea_diagnosed,cells too small,,,,,
+hearing_loss_present x tinnitus_present,,3.112570356472796,462.0,5.949999999999999,116.0,0.25831119571200944
+hearing_loss_present x vertigo_present,,2.6209113253923237,463.0,4.0625,116.0,0.4322694662285924
+muscle_symptoms_present x neck_pain_present,cells too small,,,,,
+muscle_symptoms_present x sleep_apnea_diagnosed,cells too small,,,,,
+muscle_symptoms_present x tinnitus_present,,4.795053003533569,634.0,4.225,149.0,0.8155469946261025
+muscle_symptoms_present x vertigo_present,,3.073748473748474,636.0,5.921052631578948,153.0,0.2513195140620468
+neck_pain_present x sleep_apnea_diagnosed,cells too small,,,,,
+neck_pain_present x tinnitus_present,,3.0952380952380953,214.0,1.3920454545454546,69.0,0.21706894029642498
+neck_pain_present x vertigo_present,,2.2794117647058822,214.0,1.314102564102564,71.0,0.4236352766468523
+sleep_apnea_diagnosed x tinnitus_present,cells too small,,,,,
+sleep_apnea_diagnosed x vertigo_present,cells too small,,,,,
+tinnitus_present x vertigo_present,,5.784313725490196,730.0,19.379999999999995,205.0,0.005325131529031246
